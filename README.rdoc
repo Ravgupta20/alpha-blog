@@ -1,1 +1,1 @@
-Thsi is the repository for the first rails app
+This is the repository for the first rails app
