@@ -3,7 +3,7 @@ $navbar-default-bg: #452145;
 @import "bootstrap-mincer";
 @import "bootstrap";
 
-#Logo{
+#logo {
   float: left;
   font-size: 1.7em;
   color: #fff;
@@ -12,7 +12,7 @@ $navbar-default-bg: #452145;
   font-weight: bold;
 }
 
-#Logo:hover{
+#logo:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -22,7 +22,7 @@ $navbar-default-bg: #452145;
 
 }
 
-.jumbotron{
+.jumbotron {
   background-image: asset-url('blue.jpg');
   background-size: cover;
   height: 550px;
@@ -32,9 +32,9 @@ $navbar-default-bg: #452145;
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
+  letter-spacing: -1px;
   font-weight: bold;
 }
-
 .btn-xlarge{
   font-size: 1.7em;
 }
@@ -42,10 +42,10 @@ $navbar-default-bg: #452145;
 .description {
   margin-top: 0;
 }
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
-
 }
 
 .article-title {
@@ -59,18 +59,19 @@ $navbar-default-bg: #452145;
   padding-bottom: 15px;
 }
 
-footer{
+footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
 }
 
-footer small{
+
+footer small {
   float: left;
 }
 
-footer ul{
+footer ul {
   float: right;
   list-style: none;
 }
